@@ -202,10 +202,13 @@ Agora vamos configurar tudo usando o wizard automatizado:
    Você vai precisar de:
    
    **a) Token da Vercel:**
-   - Vá em Vercel → Settings → Tokens
-   - Clique em "Create Token"
-   - Dê um nome (ex: "NossoCRM Installer")
-   - Copie o token (aparece só uma vez!)
+   - Vá no seu Perfil (canto superior direito) → Account Settings → Tokens
+   - Em Create Token:
+       - Dê um nome (ex: "NossoCRM Installer")
+       - Selecione o 'Scope'
+       - Defina o tempo de expiração
+   - Clique no botão 'Create'
+   - Copie e guarde o token (ATENÇÃO: O Token aparece só uma vez!)
 
    **b) Credenciais do Supabase:**
    
