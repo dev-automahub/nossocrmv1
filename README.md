@@ -149,15 +149,16 @@ O primeiro passo é fazer uma cópia do projeto no seu GitHub:
 Agora vamos colocar o projeto no ar usando a Vercel:
 
 1. Acesse [vercel.com](https://vercel.com) e faça login
-2. Clique em **Add New Project** (ou **New Project**)
-3. Conecte sua conta do GitHub (se ainda não conectou)
-4. Na lista de repositórios, encontre e selecione **nossocrm** (seu fork)
+2. Conecte sua conta do GitHub (se ainda não conectou)
+3. Clique em **Add New Project** (ou **New Project**)
+4. Na lista de repositórios, encontre e selecione **nossocrm** (seu fork) e clique 'Import'
 5. Clique em **Deploy**
 
 > ⏱️ **Aguarde**: O deploy leva cerca de 2-3 minutos
 
-6. Quando terminar, você verá uma mensagem de sucesso
-7. **Copie a URL** do seu projeto (ex: `https://nossocrm-abc123.vercel.app`)
+6. Quando terminar, você verá uma mensagem de sucesso (Congratulations!)
+7. Clique no botão 'Continue to Dashboard'
+8. No painel, **Copie a URL** do seu projeto (ex: `https://nossocrm-abc123.vercel.app`)
 
 > ✅ **Pronto quando**: Você tiver uma URL funcionando (pode estar sem configuração ainda, é normal!)
 
@@ -215,8 +216,9 @@ Agora vamos configurar tudo usando o wizard automatizado:
    *Opção 1: Criar projeto novo (recomendado)*
    - Vá em [supabase.com](https://supabase.com) → New Project
    - Escolha um nome e senha do banco
-   - Aguarde a criação (2-3 minutos)
-   - Vá em Settings → API
+   - Clique no botão 'Create new project'
+   - Aguarde a criação até mostrar o status 'Healthy' (2-3 minutos)
+   - Vá em Project Settings (menu a esquerda) → API Keys
    - Copie: Project URL, anon key, service_role key
    - Vá em Settings → Database → Connection string
    - Copie a connection string (Transaction pooler, porta 6543)
